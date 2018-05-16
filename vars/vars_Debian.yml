@@ -1,0 +1,20 @@
+---
+mage_packages:
+  # distro specific
+  - gdebi-core
+  - software-properties-common
+  - apt-transport-https
+  - unattended-upgrades
+  # ansible prereqs
+  - python
+  - python-simplejson
+  - git
+  - aptitude
+  # convenience
+  - bash-completion
+  - mc
+  # security
+  - openssl
+  - ca-certificates
+  - lynis
+  - rkhunter

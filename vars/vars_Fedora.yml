@@ -1,0 +1,15 @@
+---
+mage_packages:
+  # distro specific
+  # ansible prereqs
+  - python
+  - python-simplejson
+  - git
+  # conveniece
+  - bash-completion
+  - mc
+  # security
+  - openssl
+  - ca-certificates
+  - lynis
+  - rkhunter

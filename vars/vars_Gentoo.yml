@@ -1,0 +1,17 @@
+---
+mage_packages:
+  # distro specific
+  - app-portage/eix
+  - app-portage/flaggie
+  - app-portage/layman  
+  - app-portage/gentoolkit
+  # ansible prereqs
+  - dev-vcs/git
+  - dev-python/simplejson
+  # convenience
+  - app-misc/mc
+  # security
+  - dev-libs/openssl
+  - app-misc/ca-certificates
+  - app-forensics/lynis
+  - app-forensics/rkhunter
