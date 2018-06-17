@@ -11,7 +11,7 @@ mage_packages:
   - git
   # convenience
   - bash-completion
-  - mcsdfdsf
+  - mc
   - iftop
   - htop
   - httpie
