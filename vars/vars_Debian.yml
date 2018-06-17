@@ -13,6 +13,9 @@ mage_packages:
   # convenience
   - bash-completion
   - mc
+  - iftop
+  - htop
+  - httpie
   # security
   - openssl
   - ca-certificates

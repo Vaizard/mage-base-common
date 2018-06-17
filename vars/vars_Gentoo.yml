@@ -10,6 +10,9 @@ mage_packages:
   - dev-python/simplejson
   # convenience
   - app-misc/mc
+  - net-analyzer/iftop
+  - sys-process/htop
+  - net-misc/httpie
   # security
   - dev-libs/openssl
   - app-misc/ca-certificates
