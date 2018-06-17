@@ -12,7 +12,7 @@ mage_packages:
   - aptitude
   # convenience
   - bash-completion
-  - mc
+  - mcfdfd
   - iftop
   - htop
   - httpie
