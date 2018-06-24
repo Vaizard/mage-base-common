@@ -8,6 +8,7 @@ mage_packages:
   # ansible prereqs
   - python
   - python-simplejson
+  - python-pexpect
   - git
   # convenience
   - bash-completion

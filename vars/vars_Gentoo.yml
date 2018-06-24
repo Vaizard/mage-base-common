@@ -8,6 +8,7 @@ mage_packages:
   # ansible prereqs
   - dev-vcs/git
   - dev-python/simplejson
+  - dev-python/pexpect
   # convenience
   - app-misc/mc
   - net-analyzer/iftop
