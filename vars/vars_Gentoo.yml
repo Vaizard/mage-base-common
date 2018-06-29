@@ -14,6 +14,7 @@ mage_packages:
   - net-analyzer/iftop
   - sys-process/htop
   - net-misc/httpie
+  - sys-apps/smartmontools
   # security
   - dev-libs/openssl
   - app-misc/ca-certificates
