@@ -11,8 +11,7 @@ mage_packages:
   - mc
   - iftop
   - htop
-  - httpie
-  - smartmontools
+  - httpie  
   # security
   - openssl
   - ca-certificates
