@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: Vaizard Institute
+  company: Vaizard Institute
+  license: MIT
+  min_ansible_version: 2.3
+  description: This role ensures a common ground exists for mage-orchestrated boxes. It installs a minimal set of expected packages and performs the most rudimentary system setup and configuration.
+  platforms:
+    - name: Debian
+    - name: Ubuntu
+    - name: Fedora
+    - name: Gentoo
+      versions:
+        - all
+  categories:
+    - system
+
+dependencies: []
