@@ -1,0 +1,6 @@
+---
+
+- hosts: all
+
+  roles:
+    - vaizard.mage-base-common
