@@ -5,6 +5,7 @@ mage_packages:
   - software-properties-common
   - apt-transport-https
   - unattended-upgrades
+  - snapd
   # ansible prereqs
   - python
   - python-simplejson
