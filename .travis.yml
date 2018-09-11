@@ -4,8 +4,6 @@ sudo: required
 env:
   - distribution: ubuntu
     version: xenial
-  - distribution: debian
-    version: jessie
 
 services:
   - docker
