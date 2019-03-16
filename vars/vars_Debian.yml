@@ -12,6 +12,7 @@ mage_packages:
   - python-pexpect
   - git
   - aptitude
+  - sudo
   # convenience
   - bash-completion
   - mc

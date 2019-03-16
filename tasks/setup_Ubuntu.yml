@@ -1,13 +1,10 @@
 ---
 
-# As long as Canonical happily keeps a bugged package unpatched
-# and as long as Redhat insists on releasing Ansible with nasty
-# bugs, this stays here, even for systems that will never get
-# Ansible installed on. Because you never know and you don't want
-# to spend hours tracing disasterous bugs all over the place.
-- name: "Add Ansible PPA"
+- name: "Add Universe repo"
   apt_repository:
-    repo: ppa:ansible/ansible
+    repo: "{{ item }}"
+  with_items:
+    - "deb http://us.archive.ubuntu.com/ubuntu {{ ansible_distribution_release|lower }} universe"
 
 - name: "Installing packages"
   apt:

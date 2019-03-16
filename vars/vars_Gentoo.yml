@@ -9,6 +9,7 @@ mage_packages:
   - dev-vcs/git
   - dev-python/simplejson
   - dev-python/pexpect
+  - app-admin/sudo
   # convenience
   - app-misc/mc
   - net-analyzer/iftop

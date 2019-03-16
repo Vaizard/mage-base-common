@@ -10,6 +10,7 @@ mage_packages:
   - python-simplejson
   - python-pexpect
   - git
+  - sudo
   # convenience
   - bash-completion
   - mc
