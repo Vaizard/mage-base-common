@@ -9,6 +9,7 @@ mage_packages:
   - python
   - python-simplejson
   - python-pexpect
+  - python3-psycopg2
   - git
   - sudo
   # convenience
