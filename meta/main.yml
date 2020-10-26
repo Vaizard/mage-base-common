@@ -12,7 +12,7 @@ galaxy_info:
     - name: Gentoo
       versions:
         - all
-  categories:
+  galaxy_tags:
     - system
 
 dependencies: []

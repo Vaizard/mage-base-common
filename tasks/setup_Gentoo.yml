@@ -1,6 +1,6 @@
 ---
 - name: "Installing packages"
-  portage: 
+  portage:
     package: "{{ item }}"
     update: yes
     deep: yes
@@ -8,7 +8,7 @@
     newuse: yes
   with_items:
     - "{{ mage_packages }}"
-    
+
 - name: "Initializing eix"
   command: eix-update
   args:

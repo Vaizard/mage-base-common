@@ -12,8 +12,6 @@ mage_packages:
   - app-admin/sudo
   # convenience
   - app-misc/mc
-  - net-analyzer/iftop
-  - sys-process/htop
   - net-misc/httpie
   # security
   - dev-libs/openssl

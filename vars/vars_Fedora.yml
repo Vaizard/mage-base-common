@@ -2,15 +2,13 @@
 mage_packages:
   # distro specific
   # ansible prereqs
-  - python
-  - python-simplejson
-  - python-pexpect
+  - python3
+  - python3-simplejson
+  - python3-pexpect
   - git
   # conveniece
   - bash-completion
   - mc
-  - iftop
-  - htop
   - httpie  
   - sudo
   # security

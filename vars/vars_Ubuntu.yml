@@ -6,17 +6,15 @@ mage_packages:
   - apt-transport-https
   - unattended-upgrades
   # ansible prereqs
-  - python
-  - python-simplejson
-  - python-pexpect
+  - python3
+  - python3-simplejson
+  - python3-pexpect
   - python3-psycopg2
   - git
   - sudo
   # convenience
   - bash-completion
   - mc
-  - iftop
-  - htop
   - httpie
   # security
   - openssl

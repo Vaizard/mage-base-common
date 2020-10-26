@@ -7,17 +7,14 @@ mage_packages:
   - unattended-upgrades
   - snapd
   # ansible prereqs
-  - python
-  - python-simplejson
-  - python-pexpect
+  - pythonš
+  - python3-simplejson
+  - python3-pexpect
   - git
-  - aptitude
   - sudo
   # convenience
   - bash-completion
   - mc
-  - iftop
-  - htop
   - httpie
   # security
   - openssl
