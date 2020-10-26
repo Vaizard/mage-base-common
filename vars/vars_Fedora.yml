@@ -5,11 +5,12 @@ mage_packages:
   - python3
   - python3-simplejson
   - python3-pexpect
+  - python3-psycopg2
   - git
   # conveniece
   - bash-completion
   - mc
-  - httpie  
+  - httpie
   - sudo
   # security
   - openssl

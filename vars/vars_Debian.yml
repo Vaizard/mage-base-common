@@ -7,7 +7,7 @@ mage_packages:
   - unattended-upgrades
   - snapd
   # ansible prereqs
-  - pythonš
+  - python3
   - python3-simplejson
   - python3-pexpect
   - git
