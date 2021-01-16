@@ -3,10 +3,9 @@ mage_packages:
   # distro specific
   - app-portage/eix
   - app-portage/flaggie
-  - app-portage/layman  
+  - app-portage/layman
   - app-portage/gentoolkit
   # ansible prereqs
-  - dev-vcs/git
   - dev-python/simplejson
   - dev-python/pexpect
   - dev-python/psycopg

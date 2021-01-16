@@ -6,7 +6,6 @@ mage_packages:
   - python3-simplejson
   - python3-pexpect
   - python3-psycopg2
-  - git
   # conveniece
   - bash-completion
   - mc
