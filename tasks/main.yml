@@ -52,7 +52,7 @@
 
 - name: "Ensure locale en_US.UTF locale is present"
   include_role:
-    name: mage-locales
+    name: ansible-role-locales
   when: ansible_distribution in [ 'Debian', 'Ubuntu' ]
   tags: [ 'configure' ]
 
